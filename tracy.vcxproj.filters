@@ -1,0 +1,996 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="capture\src\capture.cpp">
+      <Filter>capture\src</Filter>
+    </ClCompile>
+    <ClCompile Include="csvexport\src\csvexport.cpp">
+      <Filter>csvexport\src</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\fibers.cpp">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\OpenCLVectorAdd\OpenCLVectorAdd.cpp">
+      <Filter>examples\OpenCLVectorAdd</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\ToyPathTracer\Source\enkiTS\TaskScheduler.cpp">
+      <Filter>examples\ToyPathTracer\Source\enkiTS</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\ToyPathTracer\Source\enkiTS\TaskScheduler_c.cpp">
+      <Filter>examples\ToyPathTracer\Source\enkiTS</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\ToyPathTracer\Source\Maths.cpp">
+      <Filter>examples\ToyPathTracer\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\ToyPathTracer\Source\Test.cpp">
+      <Filter>examples\ToyPathTracer\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\ToyPathTracer\Windows\TestWin.cpp">
+      <Filter>examples\ToyPathTracer\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\color-hot.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\color.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\dxt1divtable.c">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\dxt1table.c">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\identify.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\rdotbl.c">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\uarch\uarch.cpp">
+      <Filter>extra\uarch</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\version.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\x11_colors.c">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="getopt\getopt.c">
+      <Filter>getopt</Filter>
+    </ClCompile>
+    <ClCompile Include="import\src\import-chrome.cpp">
+      <Filter>import\src</Filter>
+    </ClCompile>
+    <ClCompile Include="import\src\import-fuchsia.cpp">
+      <Filter>import\src</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\helpers\embed.cpp">
+      <Filter>profiler\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\BackendEmscripten.cpp">
+      <Filter>profiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\BackendGlfw.cpp">
+      <Filter>profiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\BackendWayland.cpp">
+      <Filter>profiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\ConnectionHistory.cpp">
+      <Filter>profiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\Filters.cpp">
+      <Filter>profiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\Fonts.cpp">
+      <Filter>profiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\HttpRequest.cpp">
+      <Filter>profiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\ImGuiContext.cpp">
+      <Filter>profiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\ini.c">
+      <Filter>profiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\IsElevated.cpp">
+      <Filter>profiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\main.cpp">
+      <Filter>profiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyAchievementData.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyAchievements.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyBadVersion.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyColor.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyConfig.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyEmbed.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyEventDebug.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyFileselector.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyFilesystem.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyImGui.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyLlm.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyLlmApi.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyLlmChat.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyLlmEmbeddings.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyLlmTools.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyMarkdown.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyMicroArchitecture.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyMouse.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyProtoHistory.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracySourceContents.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracySourceTokenizer.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracySourceView.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyStorage.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyTexture.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyTimelineController.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyTimelineItem.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyTimelineItemCpuData.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyTimelineItemGpu.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyTimelineItemPlot.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyTimelineItemThread.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyUserData.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyUtility.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_Annotations.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_Callstack.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_Compare.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_ConnectionState.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_ContextSwitch.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_CpuData.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_FindZone.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_FlameGraph.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_FrameOverview.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_FrameTimeline.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_FrameTree.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_GpuTimeline.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_Locks.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_Memory.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_Messages.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_Navigation.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_NotificationArea.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_Options.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_Playback.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_Plots.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_Ranges.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_Samples.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_Statistics.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_Timeline.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_TraceInfo.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_Utility.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_ZoneInfo.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyView_ZoneTimeline.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\profiler\TracyWeb.cpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\ResolvService.cpp">
+      <Filter>profiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\RunQueue.cpp">
+      <Filter>profiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\WindowPosition.cpp">
+      <Filter>profiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\winmain.cpp">
+      <Filter>profiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\src\winmainArchDiscovery.cpp">
+      <Filter>profiler\src</Filter>
+    </ClCompile>
+    <ClCompile Include="public\client\TracyAlloc.cpp">
+      <Filter>public\client</Filter>
+    </ClCompile>
+    <ClCompile Include="public\client\TracyCallstack.cpp">
+      <Filter>public\client</Filter>
+    </ClCompile>
+    <ClCompile Include="public\client\TracyDxt1.cpp">
+      <Filter>public\client</Filter>
+    </ClCompile>
+    <ClCompile Include="public\client\TracyKCore.cpp">
+      <Filter>public\client</Filter>
+    </ClCompile>
+    <ClCompile Include="public\client\TracyOverride.cpp">
+      <Filter>public\client</Filter>
+    </ClCompile>
+    <ClCompile Include="public\client\TracyProfiler.cpp">
+      <Filter>public\client</Filter>
+    </ClCompile>
+    <ClCompile Include="public\client\TracyRocprof.cpp">
+      <Filter>public\client</Filter>
+    </ClCompile>
+    <ClCompile Include="public\client\TracySysPower.cpp">
+      <Filter>public\client</Filter>
+    </ClCompile>
+    <ClCompile Include="public\client\TracySysTime.cpp">
+      <Filter>public\client</Filter>
+    </ClCompile>
+    <ClCompile Include="public\client\TracySysTrace.cpp">
+      <Filter>public\client</Filter>
+    </ClCompile>
+    <ClCompile Include="public\client\tracy_rpmalloc.cpp">
+      <Filter>public\client</Filter>
+    </ClCompile>
+    <ClCompile Include="public\common\TracySocket.cpp">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="public\common\TracyStackFrames.cpp">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="public\common\TracySystem.cpp">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="public\common\tracy_lz4.cpp">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="public\common\tracy_lz4hc.cpp">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="public\libbacktrace\alloc.cpp">
+      <Filter>public\libbacktrace</Filter>
+    </ClCompile>
+    <ClCompile Include="public\libbacktrace\dwarf.cpp">
+      <Filter>public\libbacktrace</Filter>
+    </ClCompile>
+    <ClCompile Include="public\libbacktrace\elf.cpp">
+      <Filter>public\libbacktrace</Filter>
+    </ClCompile>
+    <ClCompile Include="public\libbacktrace\fileline.cpp">
+      <Filter>public\libbacktrace</Filter>
+    </ClCompile>
+    <ClCompile Include="public\libbacktrace\macho.cpp">
+      <Filter>public\libbacktrace</Filter>
+    </ClCompile>
+    <ClCompile Include="public\libbacktrace\mmapio.cpp">
+      <Filter>public\libbacktrace</Filter>
+    </ClCompile>
+    <ClCompile Include="public\libbacktrace\posix.cpp">
+      <Filter>public\libbacktrace</Filter>
+    </ClCompile>
+    <ClCompile Include="public\libbacktrace\sort.cpp">
+      <Filter>public\libbacktrace</Filter>
+    </ClCompile>
+    <ClCompile Include="public\libbacktrace\state.cpp">
+      <Filter>public\libbacktrace</Filter>
+    </ClCompile>
+    <ClCompile Include="public\TracyClient.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="python\bindings\Module.cpp">
+      <Filter>python\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="server\TracyMemory.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\TracyMmap.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\TracyPrint.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\TracySysUtil.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\TracyTaskDispatch.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\TracyTextureCompression.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\TracyThreadCompress.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\TracyWorker.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="update\src\OfflineSymbolResolver.cpp">
+      <Filter>update\src</Filter>
+    </ClCompile>
+    <ClCompile Include="update\src\OfflineSymbolResolverAddr2Line.cpp">
+      <Filter>update\src</Filter>
+    </ClCompile>
+    <ClCompile Include="update\src\OfflineSymbolResolverDbgHelper.cpp">
+      <Filter>update\src</Filter>
+    </ClCompile>
+    <ClCompile Include="update\src\update.cpp">
+      <Filter>update\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dtl\Diff.hpp">
+      <Filter>dtl</Filter>
+    </ClInclude>
+    <ClInclude Include="dtl\Diff3.hpp">
+      <Filter>dtl</Filter>
+    </ClInclude>
+    <ClInclude Include="dtl\dtl.hpp">
+      <Filter>dtl</Filter>
+    </ClInclude>
+    <ClInclude Include="dtl\functors.hpp">
+      <Filter>dtl</Filter>
+    </ClInclude>
+    <ClInclude Include="dtl\Lcs.hpp">
+      <Filter>dtl</Filter>
+    </ClInclude>
+    <ClInclude Include="dtl\Sequence.hpp">
+      <Filter>dtl</Filter>
+    </ClInclude>
+    <ClInclude Include="dtl\Ses.hpp">
+      <Filter>dtl</Filter>
+    </ClInclude>
+    <ClInclude Include="dtl\variables.hpp">
+      <Filter>dtl</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\ToyPathTracer\Source\Config.h">
+      <Filter>examples\ToyPathTracer\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\ToyPathTracer\Source\enkiTS\Atomics.h">
+      <Filter>examples\ToyPathTracer\Source\enkiTS</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\ToyPathTracer\Source\enkiTS\LockLessMultiReadPipe.h">
+      <Filter>examples\ToyPathTracer\Source\enkiTS</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\ToyPathTracer\Source\enkiTS\TaskScheduler.h">
+      <Filter>examples\ToyPathTracer\Source\enkiTS</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\ToyPathTracer\Source\enkiTS\TaskScheduler_c.h">
+      <Filter>examples\ToyPathTracer\Source\enkiTS</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\ToyPathTracer\Source\enkiTS\Threads.h">
+      <Filter>examples\ToyPathTracer\Source\enkiTS</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\ToyPathTracer\Source\Maths.h">
+      <Filter>examples\ToyPathTracer\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\ToyPathTracer\Source\MathSimd.h">
+      <Filter>examples\ToyPathTracer\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\ToyPathTracer\Source\Test.h">
+      <Filter>examples\ToyPathTracer\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="extra\uarch\TracyMicroArchitecture.hpp">
+      <Filter>extra\uarch</Filter>
+    </ClInclude>
+    <ClInclude Include="getopt\getopt.h">
+      <Filter>getopt</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\Backend.hpp">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\ConnectionHistory.hpp">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\Filters.hpp">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\Fonts.hpp">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\HttpRequest.hpp">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\icon.hpp">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\ImGuiContext.hpp">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\ini.h">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\IsElevated.hpp">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\IconsFontAwesome6.h">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyAchievements.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyBadVersion.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyBuzzAnim.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyColor.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyConfig.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyDecayValue.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyEmbed.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyEventDebug.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyFileselector.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyFilesystem.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyImGui.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyLlm.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyLlmApi.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyLlmChat.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyLlmEmbeddings.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyLlmTools.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyLockHelpers.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyMarkdown.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyMicroArchitecture.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyMouse.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyProtoHistory.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracySourceContents.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracySourceTokenizer.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracySourceView.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyStorage.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyTexture.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyTimelineContext.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyTimelineController.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyTimelineDraw.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyTimelineItem.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyTimelineItemCpuData.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyTimelineItemGpu.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyTimelineItemPlot.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyTimelineItemThread.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyUserData.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyUtility.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyView.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyViewData.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\profiler\TracyWeb.hpp">
+      <Filter>profiler\src\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\ResolvService.hpp">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\RunQueue.hpp">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\stb_image.h">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\stb_image_resize.h">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\WindowPosition.hpp">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\zigzag01.hpp">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\zigzag02.hpp">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\zigzag04.hpp">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\zigzag08.hpp">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\zigzag16.hpp">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\src\zigzag32.hpp">
+      <Filter>profiler\src</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\TracyArmCpuTable.hpp">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\TracyCallstack.h">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\TracyCallstack.hpp">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\TracyCpuid.hpp">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\TracyDebug.hpp">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\TracyDxt1.hpp">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\TracyFastVector.hpp">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\TracyKCore.hpp">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\TracyLock.hpp">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\TracyProfiler.hpp">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\TracyRingBuffer.hpp">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\TracyScoped.hpp">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\TracyStringHelpers.hpp">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\TracySysPower.hpp">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\TracySysTime.hpp">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\TracySysTrace.hpp">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\TracyThread.hpp">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\tracy_concurrentqueue.h">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\tracy_rpmalloc.hpp">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\client\tracy_SPSCQueue.h">
+      <Filter>public\client</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\TracyAlign.hpp">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\TracyAlloc.hpp">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\TracyApi.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\TracyColor.hpp">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\TracyForceInline.hpp">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\TracyMutex.hpp">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\TracyProtocol.hpp">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\TracyQueue.hpp">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\TracySocket.hpp">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\TracyStackFrames.hpp">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\TracySystem.hpp">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\TracyVersion.hpp">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\TracyWinFamily.hpp">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\TracyYield.hpp">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\tracy_lz4.hpp">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\tracy_lz4hc.hpp">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\libbacktrace\backtrace.hpp">
+      <Filter>public\libbacktrace</Filter>
+    </ClInclude>
+    <ClInclude Include="public\libbacktrace\config.h">
+      <Filter>public\libbacktrace</Filter>
+    </ClInclude>
+    <ClInclude Include="public\libbacktrace\filenames.hpp">
+      <Filter>public\libbacktrace</Filter>
+    </ClInclude>
+    <ClInclude Include="public\libbacktrace\internal.hpp">
+      <Filter>public\libbacktrace</Filter>
+    </ClInclude>
+    <ClInclude Include="public\tracy\Tracy.hpp">
+      <Filter>public\tracy</Filter>
+    </ClInclude>
+    <ClInclude Include="public\tracy\TracyC.h">
+      <Filter>public\tracy</Filter>
+    </ClInclude>
+    <ClInclude Include="public\tracy\TracyCUDA.hpp">
+      <Filter>public\tracy</Filter>
+    </ClInclude>
+    <ClInclude Include="public\tracy\TracyD3D11.hpp">
+      <Filter>public\tracy</Filter>
+    </ClInclude>
+    <ClInclude Include="public\tracy\TracyD3D12.hpp">
+      <Filter>public\tracy</Filter>
+    </ClInclude>
+    <ClInclude Include="public\tracy\TracyLua.hpp">
+      <Filter>public\tracy</Filter>
+    </ClInclude>
+    <ClInclude Include="public\tracy\TracyOpenCL.hpp">
+      <Filter>public\tracy</Filter>
+    </ClInclude>
+    <ClInclude Include="public\tracy\TracyOpenGL.hpp">
+      <Filter>public\tracy</Filter>
+    </ClInclude>
+    <ClInclude Include="public\tracy\TracyVulkan.hpp">
+      <Filter>public\tracy</Filter>
+    </ClInclude>
+    <ClInclude Include="python\bindings\Memory.hpp">
+      <Filter>python\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="python\bindings\NameBuffer.hpp">
+      <Filter>python\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="python\bindings\ScopedZone.hpp">
+      <Filter>python\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracyCharUtil.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracyEvent.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracyFileHeader.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracyFileMeta.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracyFileRead.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracyFileWrite.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracyMemory.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracyMmap.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracyPopcnt.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracyPrint.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracyShortPtr.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracySlab.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracySort.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracySortedVector.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracyStringDiscovery.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracySysUtil.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracyTaskDispatch.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracyTextureCompression.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracyThreadCompress.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracyVarArray.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracyVector.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\TracyWorker.hpp">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\tracy_pdqsort.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\tracy_robin_hood.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\tracy_xxhash.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="test\stb_image.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="update\src\OfflineSymbolResolver.h">
+      <Filter>update\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="capture">
+      <UniqueIdentifier>{bf9bbad7-42da-65b9-7f14-ee37ef76150b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="capture\src">
+      <UniqueIdentifier>{ec112ef8-a22b-a465-8216-ea7bba9ef022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csvexport">
+      <UniqueIdentifier>{7fe93dab-edbc-f0d8-717e-d04eb316dc81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csvexport\src">
+      <UniqueIdentifier>{12cde196-0e2b-8161-1508-72c4147174b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dtl">
+      <UniqueIdentifier>{d23610f0-d3d9-842d-3afd-7c8cbe07637c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples">
+      <UniqueIdentifier>{41e3ebbf-a054-d9df-fc7b-447fc9ed74e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\OpenCLVectorAdd">
+      <UniqueIdentifier>{3d7fcc3c-d3fa-1709-38e3-75f19e8fa3ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ToyPathTracer">
+      <UniqueIdentifier>{00c071c9-1501-f519-e31a-00292014563a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ToyPathTracer\Source">
+      <UniqueIdentifier>{503ae4e2-ea37-31f2-54f5-317d5bcf36c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ToyPathTracer\Source\enkiTS">
+      <UniqueIdentifier>{579146ea-6efb-e633-db9d-cc9c062b6b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\ToyPathTracer\Windows">
+      <UniqueIdentifier>{330b6b29-1d22-a687-72b1-9d7be4470fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extra">
+      <UniqueIdentifier>{b2919fea-a0cd-7319-0f28-91bd12a7a4d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extra\uarch">
+      <UniqueIdentifier>{a55dfcbe-7ff6-ce41-d21b-36ca128433cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="getopt">
+      <UniqueIdentifier>{4aa02f57-a511-17ae-52b9-0d9d0d88e287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import">
+      <UniqueIdentifier>{733a4793-4144-159b-c421-9cc2b6c64c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import\src">
+      <UniqueIdentifier>{eeb566e4-c8b2-d18c-3125-81965f971390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="profiler">
+      <UniqueIdentifier>{b5358b30-fc3d-1ca9-a2ca-2b8f450ab382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="profiler\helpers">
+      <UniqueIdentifier>{786be2e4-af27-1144-08b6-d9c89d61c022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="profiler\src">
+      <UniqueIdentifier>{afad0fb2-500b-6609-be14-6f19332ce80c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="profiler\src\profiler">
+      <UniqueIdentifier>{6622de09-2e85-c475-8421-0267ea42a465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{f384914c-ff7c-bc01-dc32-dc486ec36961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\client">
+      <UniqueIdentifier>{3b928482-d2b4-4ea7-d158-491776c25c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\common">
+      <UniqueIdentifier>{95a375af-bfc5-ce8e-d68c-61848c959209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\libbacktrace">
+      <UniqueIdentifier>{73fd3f7e-6da4-64b7-6eb9-625e03e8db5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\tracy">
+      <UniqueIdentifier>{5391dfba-169e-e8fb-a98b-bfa0bfae517b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="python">
+      <UniqueIdentifier>{43ebee23-bd47-6bd2-fc6b-7ee9a3b755dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="python\bindings">
+      <UniqueIdentifier>{fb5d4982-251e-8488-f59f-8a5cbbce31d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{148c1ecf-45e5-f605-0aa1-0ceb8d5d8ab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{cd6b8f09-2146-73d3-cade-4e832627b4f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="update">
+      <UniqueIdentifier>{8340c33a-292f-15c1-38fb-e2d6f75e8bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="update\src">
+      <UniqueIdentifier>{79c047f1-e866-95dd-0004-893264dd43fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
