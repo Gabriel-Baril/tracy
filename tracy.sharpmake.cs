@@ -2,11 +2,11 @@ using System.IO; // For Path.Combine
 using Sharpmake; // Contains the entire Sharpmake object library.
 
 [Generate]
-public class TracyProject : BaseCppProject
+public class HdnCodeExternalTracyProject : BaseCppProject
 {
-    public TracyProject()
+    public HdnCodeExternalTracyProject()
     {
-        Name = "tracy";
+        Name = "hdn.code.external.tracy";
         // SourceRootPath = @"[project.SharpmakeCsPath]\src";
         AddTargets(TargetUtil.DefaultTarget);
     }
