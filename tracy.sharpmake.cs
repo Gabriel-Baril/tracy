@@ -6,7 +6,7 @@ public class HdnCodeExternalTracyProject : BaseCppProject
 {
     public HdnCodeExternalTracyProject()
     {
-        Name = "hdn.code.external.tracy";
+        Name = "dm.code.external.tracy";
         // SourceRootPath = @"[project.SharpmakeCsPath]\src";
         AddTargets(TargetUtil.DefaultTarget);
     }
